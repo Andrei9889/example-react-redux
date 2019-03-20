@@ -1,0 +1,4 @@
+.messages-block {
+  height: 300px;
+  overflow-y: scroll;
+}

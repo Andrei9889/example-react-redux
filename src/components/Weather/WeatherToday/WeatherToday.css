@@ -1,0 +1,47 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+section{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.live-weather{
+  background-color: rgb(102, 214, 102);
+  padding: 10px;
+  color: white;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.live-weather__icon {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.live-weather__description,
+.live-weather__temp{
+  text-align: center;
+}
+
+.live-weather__wind{
+  margin-top: 25px;
+}
+
+.live-weather__wind__direction,
+.live-weather__wind__speed{
+  float: left;
+  width: 50%;
+  text-align: center;
+}
+
+

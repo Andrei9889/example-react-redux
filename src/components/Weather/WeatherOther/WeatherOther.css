@@ -1,0 +1,41 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+.clearfix::after{
+	content: "";
+	clear: both;
+	display: table;
+}
+
+section{
+  width: 300px;
+  margin: 0 auto;
+}
+
+.forecast__day{
+  border: 1px solid lightgreen;
+  border-top: none;
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.forecast__day__date{
+  width: 33.3%;
+}
+
+.forecast__day__icon{
+  width: 33.3%;
+  text-align: center;
+}
+
+
+.forecast__day__temp{
+  width: 33.3%;
+  text-align: end
+}
+
